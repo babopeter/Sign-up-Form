@@ -15,7 +15,42 @@
         <h1>Sidebar</h1>
     </div>
     <div id="maincontent">
-        <h1>Sign-Up Page</h1>
+        <p>Upper text</p>
+        <div id="formfields">
+            <form>
+                <legend>Sign up today!</legend>
+                <ul>
+                    <li>
+                        <label for="firstname">First Name</label>
+                        <input type="text" placeholder="Enter your first name" id="firstname" name="first_name" required>
+                    </li>
+                    <li>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" placeholder="Enter your last name" id="lastname" name="last_name" required>
+                    </li>                    
+                    <li>
+                        <label for="mail">Email</label>
+                        <input type="email" placeholder="Enter your email" id="mail" name="user_email" required>
+                    </li>
+                    <li>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" placeholder="Enter your phone number" id="phone" name="user_phone" required>
+                    </li>
+                    <li>
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Enter your password" id="password" name="user_password" required>
+                    </li>
+                    <li>
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" placeholder="Confirm your password" id="confirm_password" name="confrim_password" required>
+                    </li>
+                    <li>
+                        <button class="btn btn--primary" onclick="">Create Account</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
     </div>
+    
 </body>
 </html>
