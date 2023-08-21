@@ -5,7 +5,6 @@
 
 body {
     display: flex;
-    justify-content: space-between;
     height: 100%;
     margin: 0;
 }
@@ -17,7 +16,7 @@ body {
     background-repeat: no-repeat;
     border:none;
     height: 100%;
-    width: 33%;
+    width: 40%;
 }
 
 #sidebar > h1 {
@@ -27,3 +26,62 @@ body {
     margin: 200px 0px 0px 0px;
     padding: 5px;
 }
+
+#maincontent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+form {
+    /* Center the form on the page */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 800px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+
+#formfields {
+    display: flex;
+}
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+
+
+  }
+
+  input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+ul > li {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
