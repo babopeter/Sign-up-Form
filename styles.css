@@ -19,3 +19,11 @@ body {
     height: 100%;
     width: 33%;
 }
+
+#sidebar > h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, .4);
+    text-align: center;
+    margin: 200px 0px 0px 0px;
+    padding: 5px;
+}
