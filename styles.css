@@ -7,6 +7,7 @@ body {
     display: flex;
     height: 100%;
     margin: 0;
+    background-color: #f9fafb;
 }
 
 #sidebar {
@@ -30,41 +31,39 @@ body {
 #maincontent {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 auto;
+    width: 60%;
 }
 
-form {
-    /* Center the form on the page */
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 800px;
-    /* Form outline */
+#formbox {
+    background-color: white;
+    width: 100%;
     padding: 1em;
     border: 1px solid #ccc;
-    border-radius: 1em;
-  }
+    border-left: 0;
+    border-right: 0;
+    /* border-radius: 1em; */
+}
 
 #formfields {
     display: flex;
+    justify-content: flex-start;
+    gap: 50px;
 }
 
-  ul {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
+}
   
-  form li + li {
+form li + li {
     margin-top: 1em;
-  }
-  
-  label {
+}
 
-
-  }
-
-  input,
+input,
 textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
