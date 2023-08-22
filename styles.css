@@ -82,5 +82,25 @@ ul > li {
     flex-direction: column;
 }
 
+button {
+    margin-top: 50px;
+    background-color: #5384c6;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#login > a {
+    color: #5384c6;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 
 
