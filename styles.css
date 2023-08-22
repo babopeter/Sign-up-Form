@@ -108,8 +108,17 @@ button {
     background-color: #5384c6;
     color: white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px 30px;
     margin-left: 50px;
+    font-size: large;
+    border-style: none;
+}
+
+button:hover {background-color: #253c5a}
+
+button:active {
+  background-color: #253c5a;
+  transform: translateY(4px);
 }
 
 #login {
