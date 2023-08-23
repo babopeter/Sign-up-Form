@@ -99,18 +99,18 @@ form li + li {
 
 input,
 textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
   font: 1em sans-serif;
-
-  /* Uniform text field size */
   width: 250px;
   height: 35px;
   box-sizing: border-box;
-
-  /* Match form field borders */
   border: 1px solid #999;
   border-radius: 5px;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus {
+    border: 3px solid #555;
 }
 
 ul > li {
@@ -148,6 +148,3 @@ button:active {
     font-weight: bolder;
     text-decoration: none;
 }
-
-
-
