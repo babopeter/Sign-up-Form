@@ -32,7 +32,7 @@ ion-icon {
     gap: 15px;
     color: white;
     background-color: rgba(0, 0, 0, .4);
-    margin: 200px 0px 0px 0px;
+    margin: 250px 0px 0px 0px;
     font-size:x-large;
     font-family: 'Amatic SC', cursive;
 }
@@ -41,21 +41,23 @@ ion-icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     margin: 0 auto;
     width: 60%;
 }
 
 #maincontent > p {
     margin-left: 50px;
-    font-size: larger;
+    margin-right: 300px;
+    font-size: 1.8rem;
     font-weight: bold;
+
 }
 
 legend {
     margin-left: 50px;
     margin-bottom: 25px;
-    font-size: larger;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -80,7 +82,9 @@ legend {
 
 label {
     text-transform: uppercase;
-    font-weight:400
+    font-weight:400;
+    font-size: 1.2rem;
+    
 }
 
 ul {
@@ -100,11 +104,13 @@ textarea {
   font: 1em sans-serif;
 
   /* Uniform text field size */
-  width: 300px;
+  width: 250px;
+  height: 35px;
   box-sizing: border-box;
 
   /* Match form field borders */
   border: 1px solid #999;
+  border-radius: 5px;
 }
 
 ul > li {
